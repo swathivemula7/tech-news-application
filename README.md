@@ -1,4 +1,4 @@
-Technow: Tech News Fetching Application
+#Technow: Tech News Fetching Application
 
 Overview
 Technow is a dynamic web application designed to provide real-time technology news headlines. It allows users to explore tech news across four distinct categories, authenticate using Firebase (including Google Sign-In), and manage notes with the ability to take screenshots.
