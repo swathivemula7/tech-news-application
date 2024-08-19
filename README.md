@@ -1,9 +1,9 @@
-#Technow: Tech News Fetching Application
+# TechNow: Tech News Fetching Application
 
-Overview
+# Overview
 Technow is a dynamic web application designed to provide real-time technology news headlines. It allows users to explore tech news across four distinct categories, authenticate using Firebase (including Google Sign-In), and manage notes with the ability to take screenshots.
 
-Features
+# Features
 Real-Time Tech News: Fetches the latest tech news headlines using NewsAPI, categorized into:
 Emerging Tech
 Software Updates
@@ -11,13 +11,15 @@ Tech Innovations
 Latest Gadgets
 
 Firebase Authentication: Secure user authentication with options for email/password login and Google Sign-In.
+
 Notes Section: Users can create and manage notes related to the news articles they read.
 
 Screenshot Capability: Allows users to capture screenshots of their notes using the html2canvas library.
+
 Responsive Design: Ensures the application is user-friendly across different devices, including mobile and desktop.
 
 
-Usage
+# Usage
 
 Categories of Tech News:
 Emerging Tech: Latest updates on emerging technologies like AI, Blockchain, etc.
@@ -32,7 +34,7 @@ Take Screenshots: Capture a screenshot of your notes using html2canvas for easy 
 Authentication:
 Firebase Integration: Sign in with email/password or Google account for personalized experiences.
 
-Technologies Used
+# Technologies Used:
 HTML5: Structure of the web pages.
 CSS3: Styling and responsive layout.
 JavaScript (ES6+): Application logic, API handling, and user interactions.
