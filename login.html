@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html lang="en"> 
+
+ <head> 
+
+  <meta charset="UTF-8"> 
+
+  <title>Login page - TechNow</title> 
+
+  <link rel="stylesheet" href="./login.css">
+  
+  <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-auth.js"></script> 
+
+ </head> 
+
+ <body> 
+
+  <section> 
+
+    <div class="main">  	
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+			<div class="signup">
+				<form id="signup-form">
+					<p class="skip">SKIP</p>
+					<label for="chk" aria-hidden="true">Sign up</label>
+					<input type="text" name="txt" placeholder="User name" required="">
+					<input type="email" name="email" placeholder="Email" required="">
+         
+					<input type="password" name="pswd" placeholder="Password" required="">
+					<button type="submit">Sign up</button>
+                    <p>OR</p>
+                    <button type="button" id="google-signup" class="google-btn">
+                        <i class="material-icons">login</i> Sign up with Google
+                      </button>
+				</form>
+			</div>
+		
+			<div class="login">
+				<form id="login-form">
+					<label for="chk" aria-hidden="true">Login</label>
+					<input type="email" name="login-email" placeholder="Email" required="">
+					<input type="password" name="login-pswd" placeholder="Password" required="">
+					<button type="submit">Login</button>
+                    
+				</form>
+			</div>
+			
+				
+
+	</div>
+	
+   <script src="firebase.js" defer></script>
+	<script type="module" src="login.js" defer></script>
+ </body>
+
+</html>
